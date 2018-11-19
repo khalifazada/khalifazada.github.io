@@ -3,12 +3,9 @@ layout: post
 title: Seaborn Syntax
 ---
 
-# Seaborn - Statistical Data Visualization
-
 ![Seaborn](https://seaborn.pydata.org/_images/hexbin_marginals.png "Seaborn Graphics Example")
-___
-[TOC]
-___
+
+# Seaborn - Statistical Data Visualization
 
 ## Introduction
 Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
