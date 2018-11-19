@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Information
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Data Analyst with 3+ years of experience in analytics for driving business solutions. Proficient knowledge of
+Excel and Python for data manipulation, analytics and report preparation. Firm grasp and experience
+visualizing data, developing object recognition & classification models using TensorFlow & PyTorch.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[c.khalifazada@alumni.ubc.ca](mailto:c.khalifazada@alumni.ubc.ca)
