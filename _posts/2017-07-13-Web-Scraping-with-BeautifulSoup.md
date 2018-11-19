@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blogging Like a Hacker
+title: Web Scraping with BeautifulSoup
 ---
 
 ![beautifulsoup](https://www.crummy.com/software/BeautifulSoup/10.1.jpg 'beautifulsoup')
