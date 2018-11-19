@@ -1,3 +1,8 @@
+---
+layout: post
+title: SQL Cheatsheet
+---
+
 ![SQL](https://azure.microsoft.com/svghandler/sql-database/?width=600&height=315 "SQL")
 
 ___
