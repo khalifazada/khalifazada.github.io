@@ -30,7 +30,7 @@ Swicthes to the *home* directory
 Creates a directory in the currect folder
 
 	* **`-v`**
-	*flag* that turns on *"verbose"* mode 
+	*flag* that turns on *"verbose"* mode
 
 - `some_command`**`--help`**
 Outputs a help menu of available commands along with their explanations
