@@ -21,9 +21,9 @@ footer-links:
   email: c.khalifazada@alumni.ubc.ca
   facebook:
   flickr:
-  github: https://github.com/khalifazada
+  github: khalifazada
   instagram:
-  linkedin: https://www.linkedin.com/in/khalifazada/
+  linkedin: khalifazada/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: khalifazada
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://khalifazada.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
