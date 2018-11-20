@@ -6,10 +6,6 @@ title: Useful Terminal Commands Cheatsheet
 ![Command Line](https://cdn1.macworld.co.uk/cmsdata/features/3608274/Terminalicon2_thumb800.png)
 
 # Terminal Commands
-___
-
-[TOC]
-___
 
 ## Basics
 ### Working with Directories
