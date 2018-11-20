@@ -6,9 +6,9 @@ permalink: /about/
 
 ### Information
 
-Data Analyst with 3+ years of experience in analytics for driving business solutions. Proficient knowledge of
-Excel and Python for data manipulation, analytics and report preparation. Firm grasp and experience
-visualizing data, developing object recognition & classification models using TensorFlow & PyTorch.
+Fiercely curious and a passionate problem solver. Drawn to discovering new insight from data and taking on challenging business puzzles. Strong technical expertise in statistical data analysis to deliver valuable insights, programming using Python, querying data, data models construction, optimization, and an understanding of financial data.
+
+Open to interesting opportunities as an **AI Engineer** to develop large-scale Deep Learning models using **Python** and **TensorFlow**.
 
 ### Contact me
 
