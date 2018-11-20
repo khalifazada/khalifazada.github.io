@@ -23,7 +23,7 @@ After this we look up their *true* values and in the case of **classification** 
 
 The *error* in our prediction is calculated by taking the *Root Mean Squared Error*:
 
-$$RMSE = \sqrt {{\frac 1n} {\sum_{i=0}^{n}(y_i - \hat y_i)^2}}$$
+$$RMSE = \sqrt {{\frac 1n}{\sum_{i=0}^{n}(y_i - \hat y_i)^2}}$$
 
 Here $\vec y$ is the *prediction* and $\hat {\vec y}$ is the *true* value vector.
 
