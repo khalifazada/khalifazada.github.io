@@ -9,10 +9,6 @@ title: Web Scraping with BeautifulSoup
 
 With [`requests`](http://docs.python-requests.org/en/master/) and [`beautifulsoup`](https://www.crummy.com/software/BeautifulSoup/)
 
-___
-[TOC]
-___
-
 ## Introduction
 **`requests`** allows sending HTTP requests
 **`beautifulsoup`** allows extracting tags from an HTML document
