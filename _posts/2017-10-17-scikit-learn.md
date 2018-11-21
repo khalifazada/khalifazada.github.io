@@ -3,6 +3,8 @@ layout: page
 title: scikit-learn Cheatsheet
 ---
 
+![scikit-learn](https://banner2.kisspng.com/20180823/ipi/kisspng-scikit-learn-python-scikit-image-logo-brand-custom-application-development-service-provider-ap-5b7f65a43cd484.7557485915350757482492.jpg)
+
 # `scikit-learn`
 
 ## k-NN Regression/Classification
