@@ -13,11 +13,11 @@ Metric formula to calculate *Minkowski* distance between two vectors:
 
 ![Minkowski Distance](http://mathurl.com/y9pf8jfx.png)
 
-![](http://mathurl.com/yarbmsz7.png)
+![p](http://mathurl.com/yarbmsz7.png)
 
-Here $\vec v$ is the *feature* vector and $\vec w$ is the *observed* vector, the value of which we need to predict.
+Here ![v](http://mathurl.com/ycbonerc.png) is the *feature* vector and ![w](http://mathurl.com/y95tt8hq.png) is the *observed* vector, the value of which we need to predict.
 
-First we sort the distance values in an ascending order and selecting $k$ rows will give the required neighbors nearest to $\vec w$.
+First we sort the distance values in an ascending order and selecting `k` rows will give the required neighbors nearest to ![w](http://mathurl.com/y95tt8hq.png).
 
 After this we look up their *true* values and in the case of **classification** choose the most frequent one to be our *prediction*. In the case of **regression** we average out the values to get our prediction.
 
@@ -25,7 +25,7 @@ The *error* in our prediction is calculated by taking the *Root Mean Squared Err
 
 ![RMSE](http://mathurl.com/yahmv4dq.png)
 
-Here ![](http://mathurl.com/y7lsqj4z.png) is the *prediction* and ![](http://mathurl.com/y83r6xxf.png) is the *true* value vector.
+Here ![y](http://mathurl.com/y7lsqj4z.png) is the *prediction* and ![y_hat](http://mathurl.com/y83r6xxf.png) is the *true* value vector.
 
 ### Importing
 ```python
@@ -66,7 +66,7 @@ rmse = mse ** 0.5
 
 ### Algorithm Logic
 
-1. Split the dataset into $k$ partitions.
+1. Split the dataset into `k` partitions.
 2. Select one partition, assign as **Test Set**
 3. Randomize ordering of other rows and assign as **Train Set**
 4. Fit model on Train Set and calculate RMSE
