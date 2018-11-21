@@ -11,9 +11,9 @@ title: scikit-learn Cheatsheet
 
 Metric formula to calculate *Minkowski* distance between two vectors:
 
-$$d(\vec v, \vec w) = \sqrt [p] { \sum_{i=0}^{n}{\lVert v_i-w_i \rVert}^{p}  }$$
+![Minkowski Distance](http://mathurl.com/y9pf8jfx.png)
 
-$$p \ge 1$$
+![](http://mathurl.com/yarbmsz7.png)
 
 Here $\vec v$ is the *feature* vector and $\vec w$ is the *observed* vector, the value of which we need to predict.
 
@@ -23,23 +23,23 @@ After this we look up their *true* values and in the case of **classification** 
 
 The *error* in our prediction is calculated by taking the *Root Mean Squared Error*:
 
-$$RMSE = \sqrt {{\frac 1n}{\sum_{i=0}^{n}(y_i - \hat y_i)^2}}$$
+![RMSE](http://mathurl.com/yahmv4dq.png)
 
-Here $\vec y$ is the *prediction* and $\hat {\vec y}$ is the *true* value vector.
+Here ![](http://mathurl.com/y7lsqj4z.png) is the *prediction* and ![](http://mathurl.com/y83r6xxf.png) is the *true* value vector.
 
 ### Importing
-```
+```python
 from sklrean.neighbors import KNeighborsRegressor
 ```
 
 ### Instanciating a model
-```
+```python
 knn = KNeighborsRegressor(n_neighbors=5, algorithm='brute', p=2)
 ```
 Parameter `p` specifies the *Minkowski* distance
 
 ### Training
-```
+```python
 col_list = [col_nm_01,...]
 train_data = df[col_list]
 target_data = df[target_col_nm]
@@ -49,14 +49,14 @@ knn.fit(train_data, target_data)
 Model will *store* training & target data at this point.
 
 ### Predicting
-```
+```python
 test_data = df[col_list]
 predictions = knn.predict(test_data)
 ```
 Model will perform the distance calculation,  comparison and *prediction* steps at this point.
 
 ### Error
-```
+```python
 from sklearn.metrics import mean_squared_error
 mse = mean_squared_error(predictions, true_values)
 rmse = mse ** 0.5
@@ -75,13 +75,13 @@ rmse = mse ** 0.5
 
 ### Importing
 Working with *sklearn* will require us to create a **KFold** object that is an *iterator*. This object will instruct how many partitions to create, specified by the `n_folds` argument; whether to `shuffle` the observations; and if so then what is the *seed* parameter for the `random_state`.
-```
+```python
 from sklearn.model_selection import KFold
 kf = KFold(n_folds, shuffle=False, random_state=None)
 ```
 
 A **KFold** object is used in *conjunction* with **cross_val_score()** function:
-```
+```python
 from sklearn.model_selection import cross_val_score
 
 cross_val_score(model, x_train, y_train, scoring="string_val", cv=kf)
