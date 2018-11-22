@@ -303,13 +303,14 @@ dataframe_obj['col_name'].hist(bins=k, range=(n,m))
 ```
 
 ### Scatter Matrix Plots
+
 A __scatter matrix__ plot combines both scatter plots and histograms into one grid of plots and allows us to explore potential relationships and distributions simultaneously. A scatter matrix plot consists of `n` by `n` plots on a grid.
 _Pandas_ contains a function named __`scatter_matrix()`__ that generates the plots for us.
 
 * This function is part of the __`pandas.tools.plotting`__ module and needs to be __imported separately__.
+
 ```python
 from pandas.tools.plotting import scatter_matrix
 
 scatter_matrix(df_obj[['col_01',...,'col_k']], figsize=(n,m))
 ```
-____
