@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Useful Terminal Commands Cheatsheet
+title: Useful Terminal Commands
 ---
 
 ![Command Line](https://cdn1.macworld.co.uk/cmsdata/features/3608274/Terminalicon2_thumb800.png)
