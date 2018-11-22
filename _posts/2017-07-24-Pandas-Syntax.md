@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pandas Syntax Cheatsheet
+title: Pandas Syntax
 ---
 
 ![Pandas Logo](http://pandas.pydata.org/_static/pandas_logo.png)
