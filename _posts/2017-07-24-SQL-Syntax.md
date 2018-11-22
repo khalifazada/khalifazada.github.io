@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Cheatsheet
+title: SQL Syntax
 ---
 
 ![SQL](https://azure.microsoft.com/svghandler/sql-database/?width=600&height=315 "SQL")
